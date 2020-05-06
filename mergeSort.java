@@ -9,7 +9,7 @@ public class mergeSort
     {
         try
         {
-            Scanner sc = new Scanner(new File("IntegerArray.txt"));
+            Scanner sc = new Scanner(new File("mergeSortInput.txt"));
             ArrayList<Integer> l= new ArrayList<>();
             while (sc.hasNext())
             {
