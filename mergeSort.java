@@ -41,12 +41,8 @@ public class mergeSort
         if(min<max)
         {
             int mid=(min+max)/2;
-            System.out.println("Reached");
             sort(l,min,mid);
-            System.out.println("Reached1");
             sort(l,mid+1,max);
-            System.out.println("Reached22");
-
             merge(l,min,mid,max);
         }
     }
